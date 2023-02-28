@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bundle.js"></script>
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="bg-picture">
+       <img src="./assets/send.jpg" alt="picture">
+    </div>
+    <div class="header">
+            <h2>Weather Forecast</h2>
+            <i class="bi bi-cloud-sun"></i>
+        </div>
+        <div class="search-bar">
+             <div class="form-container">
+                <form action="" id="form">
+                    <div id="city" class="form-item" >
+                        <input id ="city-input" required type="text" placeholder="City">
+                    </div>
+                    <div id="date" class="form-item" >
+                        <input id ="date-input" required type="date" id="date-input">
+                    </div>
+                    <div class="horizontal-spacer"></div>
+                    <div id="search" class="form-item" >
+                        <button id="reset-btn" type="reset">Reset</button>
+                        <button id="submit" type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div id="error-message" class="error-message" style="display: none;">Error occcured in data loading!</div>
+        <div class="weather-container" id="cards-container">
+        </div>
+    </div>   
+</body>
+</html>
