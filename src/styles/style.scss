@@ -113,9 +113,14 @@
     #city{
         flex: 3 1 auto;
 
-        input{
-            width: 100%;
         }
+        select{
+            line-height: 32px;
+            height: 32px;
+            border: 1px solid #747474;
+            border-radius: 4px;
+            width: 600px;
+            background-color: #E6F4FF;
         }
 
         .content, .search-bar{
